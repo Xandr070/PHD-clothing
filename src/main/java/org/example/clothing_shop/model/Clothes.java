@@ -29,6 +29,4 @@ public class Clothes {
 
     @Indexed(unique = false, sparse = true, direction = IndexDirection.ASCENDING, background = false)
     private String name;
-
-
 }
